@@ -1,15 +1,18 @@
 <template>
   <div>
+    <FormControl />
     <Comments />
     </div>
 </template>
 
 <script>
 import Comments from '@/components/Comments'
+import FormControl from '@/components/FormControl'
 export default {
   name: 'App',
   components: {
-    Comments
+    Comments,
+    FormControl
   }
 }
 </script>
